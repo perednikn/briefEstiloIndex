@@ -1,0 +1,125 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+/* Selectores de Producto */
+.botonera{
+    display: flex;
+      justify-content: space-around;
+}
+
+/* Div contenedor de ficha de producto */
+#producto{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* Ficha de producto consultado */
+.ficha{
+    align-self: center;
+    max-width: 130px;
+    border-style: solid 2px;
+}
+/* Estilos compartidos por todos los productos */
+.titulo{
+    color: rgb(133, 133, 133);
+    font-size: 9px;
+    max-height: 3.6em; 
+    line-height: 1.8em;
+    overflow: hidden;
+    width: 130px;
+}
+
+.fotoFicha{
+    width: 130px;
+}
+.precio{
+    font-weight:bold;
+    padding-top: 10px;
+}
+
+/* Estilo Producto 1 */
+.cuotasUno{
+    color: black;
+    font-size: 10px;
+    width: 90%;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+/* Estilo Producto 2 */
+.separador{
+    display: flex;
+    color: a8a8a8;
+    border-top: solid 1px #a8a8a8;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.iconEnvio{
+    margin-top: -10px;
+    margin-right: 8px;
+    color:#31e631;
+    padding: 2px 2px 2px 2px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    border-radius: 15px;
+}
+
+/* Estilos compartidos Productos 2 & 3 */
+.precioAnt{
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #808080;
+    text-decoration: line-through;
+}
+
+
+.descuento{
+    display: inline-flex;
+    font-size: 11px;
+    font-weight:bold;
+    align-self: flex-start;
+    justify-self: center;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    color: #31e631;
+}
+
+
+/* Estilo Productos 3 */
+
+.separadorColores{
+    display: flex;
+    color: a8a8a8;
+    border-top: solid 1px #a8a8a8;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.variantes{
+    margin-top: -6px;
+    margin-left: 3px;
+    font-size: 9px;
+    padding: 1px 1px 1px 1px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+}
+
+.masVendido{
+    font-size: 7px;
+    padding: 2px 1px 2px 4px;
+    color:rgb(255, 255, 255);
+    background-color: #ff7441;
+    max-width: 41%;
+}
+
+.gratisHoy{
+    font-size: 10px;
+    padding: 1px 2px 3px 3px;
+    color:rgb(255, 255, 255);
+    background-color: #0ba159;
+    max-width: 60%;
+}
